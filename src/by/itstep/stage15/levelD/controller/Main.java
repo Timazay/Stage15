@@ -16,6 +16,7 @@ public class Main {
         if (MatrixLogic.isZeroValueBelowDiagonal(matrix)) {
             msg = "There is zero value below the side diagonal";
         }
+
         Printer.print(msg);
     }
 }
